@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeniería de Software - Fundación Universitaria Compensar</title>
+</head>
+<body>
+    <header>
+        <h1><p style="color: #FF5733; font-size: 30px;">FUNDACIÓN UNIVERSITARIA COMPENSAR</p></h1>
+        <h2>Programa de Ingeniería de Software - Bogotá</h2>
+    </header>
+
+    <section>
+        <h3>Información del Programa</h3>
+        <p><strong>SNIES:</strong> 109130</p>
+        <p><strong>Resolución:</strong> 9058 del 28 de agosto de 2019</p>
+        <p><strong>Duración:</strong> 10 semestres</p>
+        <p><strong>Facultad:</strong> Ingeniería</p>
+        <p><strong>Jornadas:</strong> Diurna (7:00 a.m. - 1:00 p.m.), Nocturna (6:00 p.m. - 10:00 p.m.)</p>
+    </section>
+
+    <section>
+        <h3>Perfil Profesional</h3>
+        <p>
+            El ingeniero de software será competente en las etapas del ciclo de vida del software, como análisis, diseño, 
+            implementación, pruebas y gestión de proyectos, utilizando tecnologías innovadoras y metodologías ágiles.
+        </p>
+    </section>
+    <section>
+        <h3>Formulario de Registro</h3>
+        <form action="/submit_form" method="post">
+            <label for="nombres">Nombres:</label><br>
+            <input type="text" id="nombres" name="nombres" required><br><br>
+
+            <label for="apellidos">Apellidos:</label><br>
+            <input type="text" id="apellidos" name="apellidos" required><br><br>
+
+            <label for="documento">Documento:</label><br>
+            <input type="text" id="documento" name="documento" required><br><br>
+
+            <label for="correo">Correo:</label><br>
+            <input type="email" id="correo" name="correo" required><br><br>
+
+            <label for="celular">Celular:</label><br>
+            <input type="tel" id="celular" name="celular" required><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section>
+        <h3>Campo Laboral</h3>
+        <ul>
+            <li>Ingeniero de calidad</li>
+            <li>Desarrollador de software web y móvil</li>
+            <li>Gerente de proyectos de software</li>
+            <li>Líder de desarrollo de software</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© Fundación Universitaria Compensar</p>
+        <p>Más información en <a href="https://ucompensar.edu.co/programas/ingenieria-de-software-bogota/">ucompensar.edu.co</a></p>
+    </footer>
+</body>
+</html>
